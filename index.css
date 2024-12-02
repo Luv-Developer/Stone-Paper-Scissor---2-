@@ -1,0 +1,92 @@
+#paper{
+    width:250px;
+    height:180px;
+    cursor: pointer;
+    border:2px solid black;
+    transition:0.2s;
+    border-radius:10px;
+}
+#paper:hover{
+    transition:0.2s;
+    box-shadow: 0px 10px 10px rgb(29, 29, 29);
+}
+#stone{
+    width:250px;
+    height:180px;
+    cursor: pointer;
+    border:2px solid black;
+    transition:0.2s;
+    border-radius: 10px;
+}
+#stone:hover{
+    transition:0.2s;
+    box-shadow:0px 10px 10px black;
+}
+#scissor{
+    width:250px;
+    height:180px;
+    cursor: pointer;
+    border:2px solid black;
+    border-radius:10px;
+    transition: 0.2s;
+}
+#scissor:hover{
+    transition:0.2s;
+    box-shadow: 0px 10px 10px black;
+}
+div{
+    display: block;
+    text-align: center;
+    padding:20px 40px;
+    justify-content: center;
+    align-items: center;
+}
+#user{
+    background-color:rgb(7, 2, 43);
+    height: 40px;
+    padding:10px;
+    width:250px;
+    font-size:28px;
+    text-align: center;
+    margin-left:620px;
+    border-radius:10px;
+    color:rgb(18, 224, 247);
+    cursor: pointer;
+}
+#computer{
+    background-color:rgb(2, 38, 10);
+    height: 45px;
+    padding:10px 10px;
+    width:350px;
+    font-size:28px;
+    text-align: center;
+    margin-left:565px;
+    border-radius:10px;
+    color:rgb(83, 244, 59);
+    border:2px solid darkgreen;
+}
+p{
+    font-size:25px;
+    font-weight:bold;
+    font-family: casc;
+}
+h2{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color:rgb(47, 30, 3);
+    height: 40px;
+    padding:10px 10px;
+    width:300px;
+    font-size:28px;
+    text-align: center;
+    margin-left:592px;
+    border-radius:10px;
+    color:white;
+    border:2px solid rgb(248, 252, 248);
+    cursor: pointer;
+    transition: 0.2s;
+    border-radius: 30px;
+}
+h2:hover{
+    transition:0.2s;
+    letter-spacing: 0.1em;
+}
